@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 3.0//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">  
+  
+ <hibernate-mapping>  
+  <class name="jpa.Parking" table="parking">  
+    <id name="id">  
+     <generator class="assigned"></generator>  
+    </id>  
+            
+    <property name="nom"></property>  
+    <property name="adresse"></property>  
+    <property name="prix"></property>  
+    <property name="superficie"></property>  
+    <property name="hauteur"></property>  
+    <property name="emplacement"></property>  
+    <property name="passe"></property>  
+            
+  </class>  
+            
+ </hibernate-mapping>  
